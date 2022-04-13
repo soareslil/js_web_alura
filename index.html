@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liliane Nutrição</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>Liliane Nutrição</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="containerSection">
+            <h2>Meus Pacientes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Peso(kg)</th>
+                        <th>Altura (m)</th>
+                        <th>Gordura Corporal (%)</th>
+                        <th>IMC</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-pacientes">
+                        <tr class="paciente">
+                            <td class="info-nome">Paulo</td>
+                            <td class="info-peso">100</td>
+                            <td class="info-altura">2.00</td>
+                            <td class="info-gordura">10</td>
+                            <td class="info-imc">0</td>
+                        </tr>
+
+                        <tr class="paciente">
+                            <td class="info-nome">Pedro</td>
+                            <td class="info-peso">100</td>
+                            <td class="info-altura">2.00</td>
+                            <td class="info-gordura">10</td>
+                            <td class="info-imc">0</td>
+                        </tr>
+
+                        <tr class="paciente">
+                            <td class="info-nome">Luciano</td>
+                            <td class="info-peso">100</td>
+                            <td class="info-altura">2.00</td>
+                            <td class="info-gordura">10</td>
+                            <td class="info-imc">0</td>
+                        </tr>
+
+                        <tr class="paciente">
+                            <td class="info-nome">Matheus</td>
+                            <td class="info-peso">100</td>
+                            <td class="info-altura">2.00</td>
+                            <td class="info-gordura">10</td>
+                            <td class="info-imc">0</td>
+                        </tr>
+
+                        <tr class="paciente">
+                            <td class="info-nome">Ricardo</td>
+                            <td class="info-peso">100</td>
+                            <td class="info-altura">2.00</td>
+                            <td class="info-gordura">10</td>
+                            <td class="info-imc">0</td>
+                        </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script>
+    var titulo = document.querySelector("h1");
+    titulo.textContent = "Liliane Nutricionista";
+    </script>
+</body>
+</html>
