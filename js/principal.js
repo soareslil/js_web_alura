@@ -42,3 +42,13 @@ for(var i =0; i<pacientes.length; i++){
         tdImc.textContent = "Altura ou peso inválido!"
     }
 }
+
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click", function(event){
+    console.log('oi cliquei no botao');
+    event.preventDefault();
+});
+
+titulo.addEventListener("click", function(){
+    console.log('clickado');
+})
