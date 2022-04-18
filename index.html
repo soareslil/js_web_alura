@@ -1,111 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Liliane Nutrição</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/reset.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <h1 class="titulo">Liliane Nutrição</h1>
-        </div>
+      <div class="container">
+        <h1 class="titulo">Liliane Nutrição</h1>
+      </div>
     </header>
 
     <main>
-        <section class="containerSection">
-            <h2>Meus Pacientes</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nome</th>
-                        <th>Peso(kg)</th>
-                        <th>Altura (m)</th>
-                        <th>Gordura Corporal (%)</th>
-                        <th>IMC</th>
-                    </tr>
-                </thead>
-                <tbody id="tabela-pacientes">
-                        <tr class="paciente" id="primeiro-paciente">
-                            <td class="info-nome">Paulo</td>
-                            <td class="info-peso">1000000</td>
-                            <td class="info-altura">2.00</td>
-                            <td class="info-gordura">10</td>
-                            <td class="info-imc">0</td>
-                        </tr>
+      <section class="containerSection">
+        <h2>Meus Pacientes</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Peso(kg)</th>
+              <th>Altura (m)</th>
+              <th>Gordura Corporal (%)</th>
+              <th>IMC</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-pacientes">
+            <tr class="paciente" id="primeiro-paciente">
+              <td class="info-nome">Paulo</td>
+              <td class="info-peso">1000000</td>
+              <td class="info-altura">2.00</td>
+              <td class="info-gordura">10</td>
+              <td class="info-imc">0</td>
+            </tr>
 
-                        <tr class="paciente">
-                            <td class="info-nome">Pedro</td>
-                            <td class="info-peso">80</td>
-                            <td class="info-altura">2.00</td>
-                            <td class="info-gordura">10</td>
-                            <td class="info-imc">0</td>
-                        </tr>
+            <tr class="paciente">
+              <td class="info-nome">Pedro</td>
+              <td class="info-peso">80</td>
+              <td class="info-altura">2.00</td>
+              <td class="info-gordura">10</td>
+              <td class="info-imc">0</td>
+            </tr>
 
-                        <tr class="paciente">
-                            <td class="info-nome">Luciano</td>
-                            <td class="info-peso">57</td>
-                            <td class="info-altura">2.00</td>
-                            <td class="info-gordura">10</td>
-                            <td class="info-imc">0</td>
-                        </tr>
+            <tr class="paciente">
+              <td class="info-nome">Luciano</td>
+              <td class="info-peso">57</td>
+              <td class="info-altura">2.00</td>
+              <td class="info-gordura">10</td>
+              <td class="info-imc">0</td>
+            </tr>
 
-                        <tr class="paciente">
-                            <td class="info-nome">Matheus</td>
-                            <td class="info-peso">47</td>
-                            <td class="info-altura">2.00</td>
-                            <td class="info-gordura">10</td>
-                            <td class="info-imc">0</td>
-                        </tr>
+            <tr class="paciente">
+              <td class="info-nome">Matheus</td>
+              <td class="info-peso">47</td>
+              <td class="info-altura">2.00</td>
+              <td class="info-gordura">10</td>
+              <td class="info-imc">0</td>
+            </tr>
 
-                        <tr class="paciente">
-                            <td class="info-nome">Ricardo</td>
-                            <td class="info-peso">70</td>
-                            <td class="info-altura">2.00</td>
-                            <td class="info-gordura">10</td>
-                            <td class="info-imc">0</td>
-                        </tr>
-                </tbody>
-            </table>
-        </section>
+            <tr class="paciente">
+              <td class="info-nome">Ricardo</td>
+              <td class="info-peso">70</td>
+              <td class="info-altura">2.00</td>
+              <td class="info-gordura">10</td>
+              <td class="info-imc">0</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
 
     <section class="container">
-        <h2 id="titulo-form">Adicionar novo paciente</h2>
-        <form id="form-adiciona">
-            <div class="">
-                <label for="nome">Nome:</label>
-                <input id="nome" name="nome" type="text" placeholder="digite o nome do seu paciente" class="campo">
-            </div>
-            <div class="grupo">
-                <label for="peso">Peso:</label>
-                <input id="peso" name="peso" type="text" placeholder="digite o peso do seu paciente" class="campo campo-medio">
-            </div>
-            <div class="grupo">
-                <label for="altura">Altura:</label>
-                <input id="altura" name="altura" type="text" placeholder="digite a altura do seu paciente" class="campo campo-medio">
-            </div>
-            <div class="grupo">
-                <label for="gordura">% de Gordura:</label>
-                <input id="gordura" name="gordura" type="text" placeholder="digite a porcentagem de gordura do seu paciente" class="campo campo-medio">
-            </div>
-    
-            <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
-        </form>
+      <h2 id="titulo-form">Adicionar novo paciente</h2>
+      <form id="form-adiciona">
+        <div class="">
+          <label for="nome">Nome:</label>
+          <input
+            id="nome"
+            name="nome"
+            type="text"
+            placeholder="digite o nome do seu paciente"
+            class="campo"
+          />
+        </div>
+        <div class="grupo">
+          <label for="peso">Peso:</label>
+          <input
+            id="peso"
+            name="peso"
+            type="text"
+            placeholder="digite o peso do seu paciente"
+            class="campo campo-medio"
+          />
+        </div>
+        <div class="grupo">
+          <label for="altura">Altura:</label>
+          <input
+            id="altura"
+            name="altura"
+            type="text"
+            placeholder="digite a altura do seu paciente"
+            class="campo campo-medio"
+          />
+        </div>
+        <div class="grupo">
+          <label for="gordura">% de Gordura:</label>
+          <input
+            id="gordura"
+            name="gordura"
+            type="text"
+            placeholder="digite a porcentagem de gordura do seu paciente"
+            class="campo campo-medio"
+          />
+        </div>
+
+        <button id="adicionar-paciente" class="botao bto-principal">
+          Adicionar
+        </button>
+      </form>
     </section>
 
     <footer>
-        <p>Desenvolvido por Liliane Soares</p>
-        <div class="footerImgs">
-            <img src="" alt="linkedin">
-            <img src="" alt="github">
-        </div>
+      <p>Desenvolvido por Liliane Soares</p>
+      <div class="footerImgs">
+        <img src="" alt="linkedin" />
+        <img src="" alt="github" />
+      </div>
     </footer>
-</body>
-<script src="js/calcula-imc.js"></script>
-<script src="js/form.js"></script>
+  </body>
+  <script src="js/calcula-imc.js"></script>
+  <script src="js/form.js"></script>
 </html>
