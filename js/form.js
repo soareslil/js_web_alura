@@ -16,7 +16,7 @@ botaoAdicionar.addEventListener("click", function (event) {
 
   if(erros.length >0){
   var mensagemErro = document.querySelector("#mensagem-erro");
-    mensagemErro.textContent = "O peso é inválido";
+    mensagemErro.textContent = erros;
     return mensagemErro;
   }
 
