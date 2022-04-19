@@ -33,3 +33,9 @@ footer {
 .paciente-invalido {
   background-color: lightcoral;
 }
+
+#mensagem-erro{
+  color: lightcoral;
+  font-weight: bold;
+  font-size: x-large;
+}
