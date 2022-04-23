@@ -1,25 +1,25 @@
 console.log("fui carregado de um arquivo.js externo");
 
-var titulo = document.querySelector(".titulo");
+let titulo = document.querySelector(".titulo");
 titulo.textContent = "Liliane Nutricionista";
 
-var pacientes = document.querySelectorAll(".paciente");
+let pacientes = document.querySelectorAll(".paciente");
 
 // console.log(pacientes)
 
-for (var i = 0; i < pacientes.length; i++) {
-  var paciente = pacientes[i];
+for (let i = 0; i < pacientes.length; i++) {
+  let paciente = pacientes[i];
 
-  var tdPeso = paciente.querySelector(".info-peso");
-  var peso = tdPeso.textContent;
+  let tdPeso = paciente.querySelector(".info-peso");
+  let peso = tdPeso.textContent;
 
-  var tdAltura = paciente.querySelector(".info-altura");
-  var altura = tdAltura.textContent;
+  let tdAltura = paciente.querySelector(".info-altura");
+  let altura = tdAltura.textContent;
 
-  var tdImc = paciente.querySelector(".info-imc");
+  let tdImc = paciente.querySelector(".info-imc");
 
-  var pesoEhValido = validaPeso(peso);
-  var alturaEhValido = validaAltura(altura);
+  let pesoEhValido = validaPeso(peso);
+  let alturaEhValido = validaAltura(altura);
 
   if (!pesoEhValido) {
     pesoEhValido = false;
@@ -34,7 +34,7 @@ for (var i = 0; i < pacientes.length; i++) {
   }
 
   if (alturaEhValido && pesoEhValido) {
-    var imc = calculaImc(peso, altura);
+    let imc = calculaImc(peso, altura);
     tdImc.textContent = imc;
   } else {
     tdImc.textContent = "Altura ou peso inválido!";
@@ -42,8 +42,8 @@ for (var i = 0; i < pacientes.length; i++) {
 }
 
 function calculaImc(peso, altura) {
-  var imc = 0;
-  var imc = peso / (altura * altura);
+  let imc = 0;
+  imc = peso / (altura * altura);
   return imc.toFixed(2);
 }
 
