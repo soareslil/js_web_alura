@@ -26,7 +26,7 @@ botaoAdicionar.addEventListener("click", function (event) {
   tabela.appendChild(pacienteTr);
 
   form.reset();
-  let mensagensErro = documenent.querySelector("#mensagens-erro");
+  let mensagensErro = document.querySelector("#mensagens-erro");
     mensagensErro.innerHTML = "";
 
 
