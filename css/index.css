@@ -44,3 +44,10 @@ footer {
   opacity: 0;
   transition: 0.5s;
 }
+
+#filtrar-tabela{
+  width: 180px;
+  height: 25px;
+  border-radius: 4px;
+  margin: 10px;
+}
