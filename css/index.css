@@ -51,3 +51,7 @@ footer {
   border-radius: 4px;
   margin: 10px;
 }
+
+.invisivel{
+  display: none;
+}
