@@ -1,11 +1,13 @@
 ## BEM VINDX AO MEU REPOSITÓRIO 👩‍💻👩‍💻✨
 
-### __ALURA: JavaScript: programando na linguagem da web__
+<br>
 
+### __ALURA: JavaScript: programando na linguagem da web__
 <br>
 
 
 ### 📃💻 REQUISITOS DO PROJETO DESENVOLVIDO: 
+---
 
 Criar um projeto utilizando HTML, CSS e JAVASCRIPT que calcule o IMC dos pacientes de uma nutricionista, permitindo a adição e remoção dos mesmos numa tabela. É necessário incluir validação dos campos de input do formulário, bem como se os valores preenchidos estão corretos, emitir um alerta caso não esteja. 
 
@@ -54,6 +56,7 @@ Criar um projeto utilizando HTML, CSS e JAVASCRIPT que calcule o IMC dos pacient
   
 
 ### ✔️ RESULTADO DO MEU PROJETO:  
+---
 [Link do projeto no ar](https://soareslil.github.io/js_web_alura/) 
 
 
