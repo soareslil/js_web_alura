@@ -1,3 +1,8 @@
-let pacientes = document.querySelectorAll(".paciente");
+let pacientesAll = document.querySelectorAll(".paciente");
 
-console.log(pacientes);
+pacientesAll.forEach(function(paciente){
+    paciente.addEventListener("dblclick", function(){
+        console.log('duplo clique aqui');
+        this.remove();
+    });
+});
