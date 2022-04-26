@@ -8,12 +8,18 @@ buttonAdicionar.addEventListener("click", function(){
 
     xhr.addEventListener("load", function(){
 
-        let resposta = xhr.responseText;
-        let pacientes = JSON.parse(resposta);
-        
-        pacientes.forEach(function(paciente){
-            adicionaPacienteNaTabela(paciente);
-        })
+        if(xhr.status == 200){
+           
+            let resposta = xhr.responseText;
+            let pacientes = JSON.parse(resposta);
+            
+            pacientes.forEach(function(paciente){
+                adicionaPacienteNaTabela(paciente);
+            })
+        }else{
+            let erroAjax = document.querySelector("#erro-ajax");
+            erroAjax.classList.remove("invisivel");
+        }
     });
 
     xhr.send();
