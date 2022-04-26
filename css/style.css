@@ -4,7 +4,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -148,7 +148,8 @@ main table tbody {
   text-align: center;
 }
 
-main table tr, main table td {
+main table tr,
+main table td {
   border: 1px solid;
 }
 
@@ -165,5 +166,32 @@ main #buscar-pacientes {
   width: 150px;
   height: 30px;
   border-radius: 5px;
+}
+
+main .paciente-invalido {
+  background-color: lightcoral;
+}
+
+main #mensagens-erro {
+  color: lightcoral;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+main .fadeOut {
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main #filtrar-tabela {
+  width: 180px;
+  height: 25px;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+main .invisivel {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
