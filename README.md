@@ -9,7 +9,9 @@
 ### 📃💻 REQUISITOS DO PROJETO DESENVOLVIDO: 
 ---
 
-Criar um projeto utilizando HTML, CSS e JAVASCRIPT que calcule o IMC dos pacientes de uma nutricionista, permitindo a adição e remoção dos mesmos numa tabela. É necessário incluir validação dos campos de input do formulário, bem como se os valores preenchidos estão corretos, emitir um alerta caso não esteja. 
+* Criar um projeto utilizando HTML, CSS e JAVASCRIPT que calcule o IMC dos pacientes de uma nutricionista, permitindo a adição e remoção dos mesmos numa tabela. 
+* É necessário incluir validação dos campos de input do formulário, bem como se os valores preenchidos estão corretos, emitir um alerta caso não esteja. 
+
 
 
 ### ✔️ RESULTADO DO MEU PROJETO:  
@@ -17,7 +19,7 @@ Criar um projeto utilizando HTML, CSS e JAVASCRIPT que calcule o IMC dos pacient
 [Link do projeto no ar](https://soareslil.github.io/js_web_alura/) 
 
 
-### NESSE PROJETO É POSSÍVEL APRENDER A:
+### FOI UTILIZADO:
 ---
 
 * Separar a organização do código em arquivos .js, .css
