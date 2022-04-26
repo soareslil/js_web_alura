@@ -8,7 +8,7 @@
 }
 
 header {
-  background-color: rgba(0, 0, 255, 0.413);
+  background-color: #fda800;
   display: flex;
   justify-content: space-between;
   // gap: 200px;
@@ -63,7 +63,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0, 0, 255, 0.253);
+    background-color: #fda900a5;
 
     .titlehere {
       justify-content: center;
@@ -160,4 +160,29 @@ main {
 
 .invisivel {
   display: none;
+}
+
+.container-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  background-color: #fda9006b;
+  padding: 25px;
+  gap: 10px;
+
+  #titulo-form {
+    text-align: center;
+    color: white;
+  }
+
+  #form-adiciona {
+    width: 100%;
+
+    #nome {
+      color: black;
+    }
+  }
 }

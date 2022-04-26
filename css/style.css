@@ -8,7 +8,7 @@
 }
 
 header {
-  background-color: rgba(0, 0, 255, 0.413);
+  background-color: #fda800;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,7 +82,7 @@ main .containerSection {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(0, 0, 255, 0.253);
+  background-color: #fda900a5;
 }
 
 main .containerSection .titlehere {
@@ -196,5 +196,38 @@ main .containerSection #buscar-pacientes {
 
 .invisivel {
   display: none;
+}
+
+.container-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fda9006b;
+  padding: 25px;
+  gap: 10px;
+}
+
+.container-form #titulo-form {
+  text-align: center;
+  color: white;
+}
+
+.container-form #form-adiciona {
+  width: 100%;
+}
+
+.container-form #form-adiciona #nome {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
