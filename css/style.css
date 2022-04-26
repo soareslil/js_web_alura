@@ -85,7 +85,7 @@ main .containerSection {
   background-color: rgba(0, 0, 255, 0.253);
 }
 
-main .titlehere {
+main .containerSection .titlehere {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -99,7 +99,7 @@ main .titlehere {
   font-weight: bold;
 }
 
-main .div-inputFiltro {
+main .containerSection .div-inputFiltro {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,18 +110,21 @@ main .div-inputFiltro {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 30px;
+  gap: 10px;
   padding: 20px;
 }
 
-main label {
+main .containerSection .div-inputFiltro label {
   font-weight: bold;
   color: white;
   margin-bottom: 8px;
   cursor: pointer;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-main #filtrar-tabela {
+main .containerSection .div-inputFiltro #filtrar-tabela {
   font-weight: bold;
   font-size: 15px;
   width: 250px;
@@ -130,7 +133,7 @@ main #filtrar-tabela {
   padding-left: 10px;
 }
 
-main table {
+main .containerSection table {
   width: 800px;
   border: 1px solid white;
   padding: 40px;
@@ -139,59 +142,59 @@ main table {
       align-self: center;
 }
 
-main table thead {
+main .containerSection table thead {
   color: white;
 }
 
-main table tbody {
+main .containerSection table tbody {
   color: white;
   text-align: center;
 }
 
-main table tr,
-main table td {
+main .containerSection table tr,
+main .containerSection table td {
   border: 1px solid;
 }
 
-main .invisivel {
+main .containerSection .invisivel {
   display: none;
 }
 
-main .btn-addPacientes {
+main .containerSection .btn-addPacientes {
   padding-left: 20px;
   margin: 20px;
 }
 
-main #buscar-pacientes {
+main .containerSection #buscar-pacientes {
   width: 150px;
   height: 30px;
   border-radius: 5px;
 }
 
-main .paciente-invalido {
+.paciente-invalido {
   background-color: lightcoral;
 }
 
-main #mensagens-erro {
+#mensagens-erro {
   color: lightcoral;
   font-weight: bold;
   font-size: x-large;
 }
 
-main .fadeOut {
+.fadeOut {
   opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-main #filtrar-tabela {
+#filtrar-tabela {
   width: 180px;
   height: 25px;
   border-radius: 4px;
   margin: 10px;
 }
 
-main .invisivel {
+.invisivel {
   display: none;
 }
 /*# sourceMappingURL=style.css.map */
