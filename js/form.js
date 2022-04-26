@@ -10,7 +10,7 @@ botaoAdicionar.addEventListener("click", function (event) {
 
   //cria a tr e a td do paciente
 
-  let pacienteTr = montaTr(paciente);
+ 
 
   let erros = validaPaciente(paciente);
   console.log(erros);
@@ -19,23 +19,25 @@ botaoAdicionar.addEventListener("click", function (event) {
     exibeMensagensDeErro(erros);
     return ;
   }
-
-  // adicionando o paciente na tabela
-  let tabela = document.querySelector("#tabela-pacientes");
-
-  tabela.appendChild(pacienteTr);
+  
+  adicionaPacienteNaTabela(paciente);
 
   form.reset();
   let mensagensErro = document.querySelector("#mensagens-erro");
-    mensagensErro.innerHTML = "";
-
+  mensagensErro.innerHTML = "";
 
 });
+
+function adicionaPacienteNaTabela(paciente){
+  let pacienteTr = montaTr(paciente);
+  let tabela = document.querySelector("#tabela-pacientes");
+  tabela.appendChild(pacienteTr);
+}
 
 function exibeMensagensDeErro(erros){
   let ul = document.querySelector("#mensagens-erro");
     ul.innerHTML = "";
-   erros.forEach(function(erro){
+    erros.forEach(function(erro){
     let li = document.createElement("li");
     li.textContent = erro;
     ul.appendChild(li);
