@@ -18,6 +18,7 @@ Criar um projeto utilizando HTML, CSS e JAVASCRIPT que calcule o IMC dos pacient
 
 
 ### NESSE PROJETO É POSSÍVEL APRENDER A:
+---
 
 * Separar a organização do código em arquivos .js, .css
 * Importar arquivos .js sempre ao final do body
