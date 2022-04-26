@@ -57,3 +57,85 @@ header{
         background-size: cover;
     }
 }
+
+main{
+    width: 100%;
+
+    .containerSection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        background-color:rgba(0, 0, 255, 0.253)
+    }
+
+    .titlehere{
+        justify-content: center;
+        align-items: center;
+        align-self:center;
+        color: white;
+        font-weight: bold;
+    }
+
+
+    .div-inputFiltro{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    label{
+        font-weight: bold;
+        color: white;
+        margin-bottom: 8px;
+        cursor: pointer;
+    }
+
+    #filtrar-tabela{
+        font-weight: bold;
+        font-size: 15px;
+        width: 250px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    table{
+        width: 800px;
+        border: 1px solid white;
+        padding: 40px;
+        align-self: center;
+
+        thead{
+            color: white;
+        }
+
+        tbody{
+            color: white;
+            text-align: center;
+        }
+
+        tr,td{
+            border: 1px solid;
+        }
+    }
+
+    .invisivel{
+        display: none;
+    }
+
+
+    .btn-addPacientes{
+        padding-left: 20px;
+        margin: 20px;
+    }
+
+
+    #buscar-pacientes{
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+    }
+}

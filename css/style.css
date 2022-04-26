@@ -65,4 +65,105 @@ header .nav-header .ul-header .li-header {
   background-position: center;
   background-size: cover;
 }
+
+main {
+  width: 100%;
+}
+
+main .containerSection {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 255, 0.253);
+}
+
+main .titlehere {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  font-weight: bold;
+}
+
+main .div-inputFiltro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+main label {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+main #filtrar-tabela {
+  font-weight: bold;
+  font-size: 15px;
+  width: 250px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+main table {
+  width: 800px;
+  border: 1px solid white;
+  padding: 40px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main table thead {
+  color: white;
+}
+
+main table tbody {
+  color: white;
+  text-align: center;
+}
+
+main table tr, main table td {
+  border: 1px solid;
+}
+
+main .invisivel {
+  display: none;
+}
+
+main .btn-addPacientes {
+  padding-left: 20px;
+  margin: 20px;
+}
+
+main #buscar-pacientes {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=style.css.map */
