@@ -11,7 +11,6 @@ header {
   background-color: #fda800;
   display: flex;
   justify-content: space-between;
-  // gap: 200px;
   height: 30vh;
   text-decoration: none;
   list-style-type: none;
@@ -52,7 +51,6 @@ header {
 }
 
 .foto-banner {
-  // width: 100%;
   background-color: #fda900a5;
 
   .img-banner {
@@ -205,9 +203,7 @@ main {
     }
 
     .grupo {
-      // width: 100%;
       text-align: center;
-      // margin: 10px;
 
       label {
         color: white;
