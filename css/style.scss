@@ -13,6 +13,8 @@ header {
   justify-content: space-between;
   // gap: 200px;
   height: 30vh;
+  text-decoration: none;
+  list-style-type: none;
 
   .img-header {
     width: 200px;
@@ -38,6 +40,12 @@ header {
       .li-header {
         text-decoration: none;
         list-style-type: none;
+
+        a{
+          text-decoration: none;
+          list-style-type: none;
+          color: white;
+        }
       }
     }
   }

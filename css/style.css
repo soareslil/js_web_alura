@@ -16,6 +16,8 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 30vh;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 header .img-header {
@@ -52,6 +54,12 @@ header .nav-header .ul-header {
 header .nav-header .ul-header .li-header {
   text-decoration: none;
   list-style-type: none;
+}
+
+header .nav-header .ul-header .li-header a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
 }
 
 .foto-banner {
