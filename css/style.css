@@ -55,7 +55,7 @@ header .nav-header .ul-header .li-header {
 }
 
 .foto-banner {
-  width: 100%;
+  background-color: #fda900a5;
 }
 
 .foto-banner .img-banner {
@@ -177,8 +177,9 @@ main .containerSection #buscar-pacientes {
 
 #mensagens-erro {
   color: lightcoral;
-  font-weight: bold;
-  font-size: x-large;
+  font-weight: ligth;
+  font-size: large;
+  margin: 20px;
 }
 
 .fadeOut {
@@ -213,9 +214,7 @@ main .containerSection #buscar-pacientes {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fda9006b;
-  padding: 25px;
-  gap: 10px;
+  background-color: #fda900a5;
 }
 
 .container-form #titulo-form {
@@ -225,9 +224,77 @@ main .containerSection #buscar-pacientes {
 
 .container-form #form-adiciona {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
 }
 
-.container-form #form-adiciona #nome {
-  color: black;
+.container-form #form-adiciona .inputsForm {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.container-form #form-adiciona .grupo {
+  text-align: center;
+}
+
+.container-form #form-adiciona .grupo label {
+  color: white;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-form #form-adiciona .grupo input[type="text"] {
+  width: 250px;
+  border-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+}
+
+.container-form #form-adiciona #adicionar-paciente {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 35px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
